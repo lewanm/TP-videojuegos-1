@@ -23,15 +23,17 @@ class Protagonista extends Persona {
     this.limitarPosicion();
   }
 
-  recibirDanio(){
+  recibirDanio(danio){
     //utilizar el tick para modificar el color por x tiempo
     //adicionalmente hacer que el personaje sea intargeteable por ese mismo tiempo
+
     if (this.salud <= 0){
       this.morir()
     }
+
+    this.salud -= danio
     this.container.tint = "ff0000"
-    
-    
+  
   }
 
   morir(){

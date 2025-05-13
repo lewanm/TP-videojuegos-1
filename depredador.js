@@ -4,9 +4,11 @@ class Depredador extends Persona {
 
     this.container.name = "depredador_" + this.id;
 
+    //la idea seria despues que cada enemigo extienda de Depredador por ahora, solo hay uno.
     this.velocidadMaxima = 2.8;
     this.accMax = 0.32;
     this.valorFriccion = 0.95;
+    this.danio = 1
   }
 
   update() {
@@ -46,7 +48,7 @@ class Depredador extends Persona {
   }
 
   hacerDanio(presa){
-    presa.recibirDanio()
+    presa.recibirDanio(this.danio)
   }
 
   moverHaciaLaPresa() {
