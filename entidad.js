@@ -18,6 +18,8 @@ class Entidad {
 
     this.spritesAnimados = {};
     this.crearContainer();
+
+    this.hayQueRotarSprite = false
   }
 
   crearContainer() {
@@ -151,10 +153,12 @@ class Entidad {
     this.container.x = this.x;
     this.container.y = this.y;
 
+    const rotarSprite = this.hayQueRotarSprite ? -1 : 1
+
     if (this.velX < 0) {
-      this.sprite.scale.x = -1;
+      this.sprite.scale.x = -1 * rotarSprite;
     } else {
-      this.sprite.scale.x = 1;
+      this.sprite.scale.x = 1 * rotarSprite;
     }
 
     this.container.zIndex = Math.floor(this.y);
