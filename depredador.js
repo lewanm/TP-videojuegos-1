@@ -19,11 +19,11 @@ class Depredador extends Persona {
 
     //this.moverHaciaLaPresa();
 
-    //this.siEstoyMuyCercaMeComoALaPresaMasCercana();
+    this.siEstoyMuyCercaMeComoALaPresaMasCercana();
     this.acercarseAlJugdor()
   }
 
-  acercarseAlJugdor(){
+    acercarseAlJugdor(){
     const difX = this.juego.protagonista.x - this.x
     const difY = this.juego.protagonista.y - this.y
 
@@ -36,12 +36,17 @@ class Depredador extends Persona {
   }
 
   siEstoyMuyCercaMeComoALaPresaMasCercana() {
-    const difX = this.presaMasCercana.x - this.x;
-    const difY = this.presaMasCercana.y - this.y;
+    const difX = this.juego.protagonista.x - this.x;
+    const difY = this.juego.protagonista.y - this.y;
+
     const dist = calcularDistancia(difX, difY);
     if (dist < 30) {
-      this.presaMasCercana.morir();
+      this.hacerDanio(this.juego.protagonista)
     }
+  }
+
+  hacerDanio(presa){
+    presa.recibirDanio()
   }
 
   moverHaciaLaPresa() {

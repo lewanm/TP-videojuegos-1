@@ -36,7 +36,7 @@ class Juego {
 
     this.ponerFondo();
 
-    this.ponerDepredadores(5);
+    this.ponerDepredadores(1);
 
     this.ponerProtagonista();
 

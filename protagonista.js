@@ -8,6 +8,7 @@ class Protagonista extends Persona {
     this.velocidadMaxima = 3;
     this.accMax = 0.33;
     this.valorFriccion = 0.95;
+    this.salud = 100
   }
 
   update() {
@@ -25,7 +26,17 @@ class Protagonista extends Persona {
   recibirDanio(){
     //utilizar el tick para modificar el color por x tiempo
     //adicionalmente hacer que el personaje sea intargeteable por ese mismo tiempo
+    if (this.salud <= 0){
+      this.morir()
+    }
     this.container.tint = "ff0000"
+    
+    
+  }
+
+  morir(){
+    console.log(this.id, "se murio");
+    this.container.destroy()
   }
 
   limitarPosicion() {
