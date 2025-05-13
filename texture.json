@@ -1,0 +1,624 @@
+{
+  "frames": {
+    "assets/enemigo1/walk/walk05.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 105,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 1,
+        "w": 105,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/enemigo1/walk/walk04.png": {
+      "frame": {
+        "x": 0,
+        "y": 128,
+        "w": 106,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 2,
+        "w": 106,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/enemigo1/walk/walk03.png": {
+      "frame": {
+        "x": 105,
+        "y": 0,
+        "w": 107,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 3,
+        "w": 107,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/enemigo1/walk/walk06.png": {
+      "frame": {
+        "x": 0,
+        "y": 255,
+        "w": 107,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 3,
+        "w": 107,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/enemigo1/walk/walk02.png": {
+      "frame": {
+        "x": 106,
+        "y": 126,
+        "w": 108,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 108,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/enemigo1/walk/walk07.png": {
+      "frame": {
+        "x": 212,
+        "y": 0,
+        "w": 108,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 5,
+        "w": 108,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/enemigo1/walk/walk01.png": {
+      "frame": {
+        "x": 0,
+        "y": 381,
+        "w": 108,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 7,
+        "w": 108,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 129
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/006.png": {
+      "frame": {
+        "x": 107,
+        "y": 250,
+        "w": 80,
+        "h": 79
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 79
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/036.png": {
+      "frame": {
+        "x": 107,
+        "y": 330,
+        "w": 48,
+        "h": 74
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 0,
+        "w": 48,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/005.png": {
+      "frame": {
+        "x": 0,
+        "y": 503,
+        "w": 80,
+        "h": 78
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/004.png": {
+      "frame": {
+        "x": 0,
+        "y": 583,
+        "w": 80,
+        "h": 77
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/003.png": {
+      "frame": {
+        "x": 0,
+        "y": 663,
+        "w": 80,
+        "h": 76
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/001.png": {
+      "frame": {
+        "x": 0,
+        "y": 743,
+        "w": 80,
+        "h": 75
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/002.png": {
+      "frame": {
+        "x": 0,
+        "y": 823,
+        "w": 80,
+        "h": 75
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/007.png": {
+      "frame": {
+        "x": 0,
+        "y": 903,
+        "w": 80,
+        "h": 75
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/000.png": {
+      "frame": {
+        "x": 0,
+        "y": 983,
+        "w": 63,
+        "h": 76
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 0,
+        "w": 63,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/walk/008.png": {
+      "frame": {
+        "x": 0,
+        "y": 1059,
+        "w": 60,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/034.png": {
+      "frame": {
+        "x": 0,
+        "y": 1134,
+        "w": 42,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 42,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/035.png": {
+      "frame": {
+        "x": 0,
+        "y": 1209,
+        "w": 39,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14,
+        "y": 2,
+        "w": 39,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/039.png": {
+      "frame": {
+        "x": 0,
+        "y": 1284,
+        "w": 58,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 4,
+        "w": 58,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/040.png": {
+      "frame": {
+        "x": 39,
+        "y": 1209,
+        "w": 39,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 3,
+        "w": 39,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/033.png": {
+      "frame": {
+        "x": 58,
+        "y": 1134,
+        "w": 44,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 4,
+        "w": 44,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/037.png": {
+      "frame": {
+        "x": 60,
+        "y": 1059,
+        "w": 54,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 7,
+        "w": 54,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "assets/protagonista/idle/038.png": {
+      "frame": {
+        "x": 63,
+        "y": 983,
+        "w": 54,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 6,
+        "w": 54,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "animations": {
+    "protagonista/walk": [
+      "assets/protagonista/walk/000.png",
+      "assets/protagonista/walk/001.png",
+      "assets/protagonista/walk/002.png",
+      "assets/protagonista/walk/003.png",
+      "assets/protagonista/walk/004.png",
+      "assets/protagonista/walk/005.png",
+      "assets/protagonista/walk/006.png",
+      "assets/protagonista/walk/007.png",
+      "assets/protagonista/walk/008.png"
+
+    ],
+    "protagonista/idle": [
+      "assets/protagonista/idle/033.png",
+      "assets/protagonista/idle/034.png",
+      "assets/protagonista/idle/035.png",
+      "assets/protagonista/idle/036.png",
+      "assets/protagonista/idle/037.png",
+      "assets/protagonista/idle/038.png",
+      "assets/protagonista/idle/039.png",
+      "assets/protagonista/idle/040.png"
+    ],
+    "enemigo1/walk": [
+      "assets/enemigo1/walk/walk01.png",
+      "assets/enemigo1/walk/walk02.png",
+      "assets/enemigo1/walk/walk03.png",
+      "assets/enemigo1/walk/walk04.png",
+      "assets/enemigo1/walk/walk05.png",
+      "assets/enemigo1/walk/walk06.png",
+      "assets/enemigo1/walk/walk07.png"
+    ]
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "texture.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 320,
+      "h": 1357
+    },
+    "scale": 1
+  }
+}
